@@ -120,9 +120,12 @@ footer{
     padding:30px;
     margin-top:40px;
 }
+
 .socials img {
     width: 28px !important;
     height: 28px !important;
-    object-fit: contain;
+    max-width: 28px !important;
+    max-height: 28px !important;
+    object-fit: contain !important;
 }
 
