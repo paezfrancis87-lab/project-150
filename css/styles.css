@@ -129,3 +129,44 @@ footer{
     object-fit: contain !important;
 }
 
+/* MISSION GRID */
+
+.mission-grid{
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    padding:70px 50px;
+
+    background-color:white;
+}
+
+.mission-box{
+    flex:1;
+
+    padding:0 25px;
+
+    border-right:1px solid #ccc;
+}
+
+.mission-box:last-child{
+    border-right:none;
+}
+
+.mission-box h3{
+    font-family:'Poppins', sans-serif;
+
+    color:#16324F;
+
+    margin-bottom:20px;
+
+    font-size:1.5rem;
+}
+
+.mission-box p{
+    line-height:1.8;
+
+    color:#444;
+}
