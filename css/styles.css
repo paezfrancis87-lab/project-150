@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+    background:#F5F7FA;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#16324F;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+
+.logo h1{
+    font-family:'Poppins', sans-serif;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+}
+
+.hero{
+    background:url('../images/hero.jpg') center/cover no-repeat;
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-text{
+    background:rgba(0,0,0,0.5);
+    padding:40px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#F4B400;
+    color:black;
+    padding:12px 24px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.about,
+.programs,
+.involvement-table,
+.contact-form{
+    padding:60px 80px;
+}
+
+.programs{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    flex:1;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:#16324F;
+    color:white;
+}
+
+th, td{
+    padding:15px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+form input,
+form textarea,
+form select{
+    margin-bottom:20px;
+    padding:10px;
+}
+
+footer{
+    background:#16324F;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:40px;
+}
